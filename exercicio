@@ -8,6 +8,8 @@ main()
 	
 	qtdrepro = 0;
 	
+	// A ORDEM DOS TRATORES NÃO ALTERA O VIADUTO!
+	
 	printf("Qual a nota do Aluno 1? ");
 	scanf("%f", &n1);
 	
