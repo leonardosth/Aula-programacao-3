@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	float n1, n2, n3, n4, n5, n6, n7, n8, n9, n0;
+	int qtdapro, qtdrepro;
+	
+	qtdrepro = 0;
+	
+	printf("Qual a nota do Aluno 1? ");
+	scanf("%f", &n1);
+	
+	if (n1 <7)
+	{
+		qtdrepro = qtdrepro + 1;
+	}
+	
+	printf("Qual a nota do Aluno 2? ");
+	scanf("%f", &n2);
+	
+	if (n2<7)
+	{
+		qtdrepro = qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 3? ");
+	scanf("%f", &n3);
+	
+	if(n3<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 4? ");
+	scanf("%f", &n4);
+	
+	if(n4<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 5? ");
+	scanf("%f", &n5);
+	
+	if(n5<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 6? ");
+	scanf("%f", &n6);
+	
+	if (n6<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 7? ");
+	scanf("%f", &n7);
+	
+	if(n7<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 8? ");
+	scanf("%f", &n8);
+	
+	if(n8<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 9? ");
+	scanf("%f", &n9);
+	
+	if(n9<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	printf("Qual a nota do Aluno 10? ");
+	scanf("%f", &n0);
+	
+	if(n0<7)
+	{
+		qtdrepro=qtdrepro+1;
+	}
+	
+	qtdapro=10-qtdrepro;
+	
+	printf("%i alunos NÃO precisam de recuperação\n", qtdapro);
+	printf("%i alunos PRECISAM de recuperação\n", qtdrepro);
+	system("pause");
+	
+}
